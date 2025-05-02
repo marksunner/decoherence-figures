@@ -1,0 +1,2 @@
+numpy>=1.23          # tested with 1.23.0
+matplotlib>=3.7      # tested with 3.7.1

@@ -1,0 +1,13 @@
+# Virtual environments
+venv/
+
+# macOS Finder cruft
+.DS_Store
+
+# Python byte-code caches
+__pycache__/
+*.pyc
+
+# Generated figures
+figures/outputs/
+

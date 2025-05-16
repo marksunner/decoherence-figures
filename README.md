@@ -10,7 +10,7 @@ The simulations are fully self-contained and deterministic (`np.random.seed(42)`
 ---
 
 ## Directory structure
-
+```text
 .
 ├── requirements.txt
 └── figures/
@@ -25,7 +25,10 @@ The simulations are fully self-contained and deterministic (`np.random.seed(42)`
         ├── figure3_curvature_error.png
         ├── figure4_energy_density.png
         └── figure5_energy_vs_curvature.png
+```
+## Quick-start
 
+```bash 
 
 # 1 · create & activate a clean env
 python3 -m venv venv
@@ -39,4 +42,4 @@ cd figures
 for f in regenerate_figure*.py; do python "$f"; done
 # PNGs will appear in figures/outputs/
 
-
+```

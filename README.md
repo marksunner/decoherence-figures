@@ -11,7 +11,6 @@ The simulations are fully self-contained and deterministic (`np.random.seed(42)`
 
 ## Directory structure
 
-```text
 .
 ├── requirements.txt
 └── figures/

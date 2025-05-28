@@ -43,7 +43,7 @@ for i in range(1, L-1):
             - 4 * laplacian[i, j]
         )
 
-# Expanded best-fit parameters for illustration
+# Best-fit parameters from Table 1 
 a1, a2, a3, a4, a5 = 0.02, 0.92, 0.03, 0.015, 0.005
 
 # Compute predicted curvature from field equation
